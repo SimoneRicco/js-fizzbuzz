@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+.grid{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 5rem;
+}
+body{
+    background-color: firebrick;
+}
+.element{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10 - 1rem);
+    aspect-ratio: 1 / 1;
+}
+.multiplo3{
+    background-color: gold;
+}
+.multiplo5{
+    background-color: lightgreen;
+}
+.multiplo15{
+    background-color: lightgoldenrodyellow;
+}
