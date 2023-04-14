@@ -27,6 +27,7 @@ body{
     align-items: center;
     width: calc(100% / 10 - 1rem);
     aspect-ratio: 1 / 1;
+    font-size: 1.5rem;
 }
 .multiplo3{
     background-color: gold;
